@@ -1,8 +1,8 @@
 <?php
 
-$access_token = 'XXXXXXXXXXXXXXXXXXXXXXX';
+$access_token = 'iGhTyWxuyxSNEL6HcTbWlaIXV40UTH3UnrlukXIIUhPv53sVQ+IDa5jHW2qks+HU241kbMGXshljvfB+wGKn0i4uNPIT/lKTgjwshElusvCgHCj9dYN3Dhon+3bUePz9JHziwVxfPmuhn0n/ypBMNwdB04t89/1O/w1cDnyilFU=';
 
-$url = 'https://api.line.me/v1/oauth/verify';
+$url = 'https://api.line.me/v2/bot/message/push';
 
 $headers = array('Authorization: Bearer ' . $access_token);
 
